@@ -1,10 +1,22 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+int _isupper(int c);
+
+int main(void)
+{
+    char c = 'A';
+    int result;
+
+    result = _isupper(c);
+    printf("Is '%c' uppercase? %d\n", c, result);
+
+    c = 'a';
+    result = _isupper(c);
+    printf("Is '%c' uppercase? %d\n", c, result);
+
+    return 0;
+}
+
 int _isupper(int c)
 {
     if (c >= 'A' && c <= 'Z') {
