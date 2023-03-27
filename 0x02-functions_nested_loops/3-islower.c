@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - print alphabet 10 times
+ * _islower - checks if input is in lower case
  *
  * Return: Always 0 (Success)
  */
